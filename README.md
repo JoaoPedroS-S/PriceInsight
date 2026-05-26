@@ -65,7 +65,6 @@ Interface minimalista
 <img width="1425" height="727" alt="image" src="https://github.com/user-attachments/assets/fd3813ed-e68c-48dd-ad55-bb6dcc5dc5ce"/>
 
 
-
 Tela responsável pelo gerenciamento de produtos cadastrados no sistema.
 
 Funcionalidades:
