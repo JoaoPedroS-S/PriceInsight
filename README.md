@@ -50,7 +50,8 @@ Jira Software
 
 🏠 Página Inicial
 
-<img width="1428" height="735" alt="image" src="https://github.com/user-attachments/assets/7c739c9d-cd12-4857-aab9-ce9b40559df5" />
+<img width="1418" height="720" alt="1" src="https://github.com/user-attachments/assets/48e2da5e-6917-4011-9577-cbd588228f5a" />
+
 
 A página inicial do PriceInsight apresenta uma interface moderna e intuitiva, permitindo que o usuário pesquise produtos rapidamente e visualize destaques de preços entre diferentes mercados.
 
@@ -62,7 +63,7 @@ Interface minimalista
 
 📦 Produtos
 
-<img width="1425" height="727" alt="image" src="https://github.com/user-attachments/assets/fd3813ed-e68c-48dd-ad55-bb6dcc5dc5ce"/>
+<img width="1419" height="723" alt="2" src="https://github.com/user-attachments/assets/a0594b7a-af9f-4d87-9490-bb544efc8dda" />
 
 
 Tela responsável pelo gerenciamento de produtos cadastrados no sistema.
@@ -75,7 +76,7 @@ Estrutura preparada para comparação de preços
 
 🏪 Mercados
 
-<img width="1439" height="732" alt="image" src="https://github.com/user-attachments/assets/f2384d30-1820-48fc-9a46-2904a0d980b3" />
+<img width="1419" height="717" alt="3" src="https://github.com/user-attachments/assets/e3962d68-afff-4346-b9a9-089176697594" />
 
 
 Área destinada ao gerenciamento e visualização dos mercados cadastrados.
@@ -88,7 +89,7 @@ Estrutura preparada para futuras funcionalidades de localização
 
 💰 Cadastro de Preços
 
-<img width="1435" height="736" alt="image" src="https://github.com/user-attachments/assets/95eebee9-1023-473b-ba21-c8da4c0aee31" />
+<img width="1409" height="715" alt="4" src="https://github.com/user-attachments/assets/1a0cfc07-fff6-468b-abaf-7b129b4ad3f5" />
 
 
 Tela responsável pelo registro e gerenciamento de preços dos produtos cadastrados.
