@@ -62,7 +62,7 @@ Interface minimalista
 
 📦 Produtos
 
-<img width="1425" height="727" alt="image" src="https://github.com/user-attachments/assets/fd3813ed-e68c-48dd-ad55-bb6dcc5dc5ce" />
+<img width="1425" height="727" alt="image" src="https://github.com/user-attachments/assets/fd3813ed-e68c-48dd-ad55-bb6dcc5dc5ce"/>
 
 
 
