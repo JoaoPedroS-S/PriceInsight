@@ -1,0 +1,26 @@
+# ==========================================
+# PRICEINSIGHT SPRING BOOT CONFIGURATION
+# ==========================================
+
+# Server configuration
+server.port=8080
+server.servlet.context-path=
+
+# Database Connection (PostgreSQL - Configured via env variables for Render/Docker/Local)
+spring.datasource.url=jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:priceinsight}
+spring.datasource.username=${DB_USERNAME:postgres}
+spring.datasource.password=${DB_PASSWORD:postgres}
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# JPA / Hibernate configuration
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+# Validation error properties
+spring.mvc.pathmatch.matching-strategy=ant_path_matcher
+
+# Enable custom formatting for logging
+logging.pattern.console=%clr(%d{yyyy-MM-dd HH:mm:ss}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}) %clr(${PID:- }){magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n
+logging.level.com.priceinsight=DEBUG
