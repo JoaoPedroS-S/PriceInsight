@@ -1,13 +1,16 @@
 import { Product, Market, PriceRecord } from '../types';
 
+const API_BASE_URL = 'https://priceinsight-backend.onrender.com';
+
 const fetchJson = async (url: string, options?: RequestInit) => {
-  const res = await fetch(url, {
+  const res = await fetch(`${API_BASE_URL}${url}`, {
     ...options,
     headers: {
       'Content-Type': 'application/json',
       ...options?.headers,
     },
   });
+  
   if (!res.ok) throw new Error(`API Error: ${res.statusText}`);
   if (res.status === 204) return null;
   return res.json();
