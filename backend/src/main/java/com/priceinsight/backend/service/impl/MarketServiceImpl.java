@@ -22,6 +22,7 @@ public class MarketServiceImpl implements MarketService {
     @Override
     @Transactional(readOnly = true)
     public List<MarketDTO> findAll() {
+        System.out.println("BUSCANDO MERCADOS...");
         return marketRepository.findAll().stream()
                 .map(this::toDTO)
                 .collect(Collectors.toList());
@@ -42,7 +43,7 @@ public class MarketServiceImpl implements MarketService {
         if (marketRepository.existsByNomeIgnoreCase(dto.getNome())) {
             throw new BusinessException("Já existe um mercado cadastrado com o nome: " + dto.getNome());
         }
-        
+
         Market market = toEntity(dto);
         Market savedMarket = marketRepository.save(market);
         return toDTO(savedMarket);
@@ -55,8 +56,8 @@ public class MarketServiceImpl implements MarketService {
                 .orElseThrow(() -> new ResourceNotFoundException("Mercado com ID " + id + " não encontrado"));
 
         // Duplicate check on rename
-        if (!existingMarket.getNome().equalsIgnoreCase(dto.getNome()) && 
-            marketRepository.existsByNomeIgnoreCase(dto.getNome())) {
+        if (!existingMarket.getNome().equalsIgnoreCase(dto.getNome()) &&
+                marketRepository.existsByNomeIgnoreCase(dto.getNome())) {
             throw new BusinessException("Já existe outro mercado cadastrado com o nome: " + dto.getNome());
         }
 
