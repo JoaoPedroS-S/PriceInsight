@@ -357,17 +357,11 @@ O gerenciamento das atividades é realizado através do Jira.
 As funcionalidades são desenvolvidas de maneira incremental, permitindo acompanhar a evolução do sistema durante as diferentes sprints.
 
 🗂️ Gerenciamento do Projeto
-Jira
 
-Projeto utilizado para organização do backlog, sprints e tarefas:
+Jira: Projeto utilizado para organização do backlog, sprints e tarefas
 
-https://joppedro.atlassian.net/jira/software/c/projects/PP/summary
+GitHub: Repositório do projeto
 
-GitHub
-
-Repositório do projeto:
-
-https://github.com/JoaoPedroS-S/PriceInsight
 
 🔮 Próximas Funcionalidades
 
